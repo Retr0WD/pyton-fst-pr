@@ -1,0 +1,9 @@
+- hosts: all
+  become: yes 
+  tasks:
+   - name: install Pyhton 3
+     apt:
+       name: python3
+       state: present
+       update_cache: yes
+
