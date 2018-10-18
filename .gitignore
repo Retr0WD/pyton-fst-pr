@@ -1,3 +1,4 @@
 Vagrantfile
 .vagrant/
 ubuntu*.log
+.idea/
